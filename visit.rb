@@ -17,7 +17,7 @@ class Visit < Formula
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     # bin.install 'dist/visit/visit'
-    prefix.install 'dist/visit'
+    dist.install file
   end
 
   test do
