@@ -4,8 +4,8 @@
 class Visit < Formula
   desc "Visit allow you visualize local or remote data by one command"
   homepage "https://columns.ai"
-  url "https://github.com/varchar-io/visit/archive/refs/tags/v0.1.tar.gz"
-  sha256 "26301d7b1a22f5f97a9d2b54547705c296287a56275421b83fc4166e3e6c11f2"
+  url "https://github.com/varchar-io/visit/archive/refs/tags/v0.2.tar.gz"
+  sha256 "34881c4fb2c8c30b299f87653524b621712ee4220fc45e6f8bb0846e176208ac"
   license "MIT"
 
   # depends_on "cmake" => :build
@@ -16,7 +16,7 @@ class Visit < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install 'dist/visit/*'
+    bin.install 'dist/visit'
     # dist.install file
   end
 
