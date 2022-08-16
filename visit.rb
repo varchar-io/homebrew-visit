@@ -16,8 +16,8 @@ class Visit < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    # bin.install 'dist/visit/visit'
-    dist.install file
+    bin.install 'dist/visit/*'
+    # dist.install file
   end
 
   test do
