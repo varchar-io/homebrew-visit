@@ -4,8 +4,8 @@
 class Visit < Formula
   desc "Visit allow you visualize local or remote data by one command"
   homepage "https://columns.ai"
-  url "https://github.com/varchar-io/visit/archive/refs/tags/v0.2.tar.gz"
-  sha256 "34881c4fb2c8c30b299f87653524b621712ee4220fc45e6f8bb0846e176208ac"
+  url "https://github.com/varchar-io/visit/archive/refs/tags/v1.0.tar.gz"
+  sha256 "07319cc3686ad8dfed33870b4364d5b5c39454f951759ab0eaf4b6e0146514a2"
   license "MIT"
 
   # depends_on "cmake" => :build
